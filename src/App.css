@@ -1,0 +1,28 @@
+body{
+  background: #ccc;
+}
+main{
+  width: 100%;
+  height: auto;
+  background: #999;
+}
+header{
+  width: 100%;
+  height: 40vh;
+  background: #000;
+}
+.produtos{
+  width: 100%;
+  height: 50vh;
+  background: #0F0;
+}
+.destaque{
+  width: 100%;
+  height: 50vh;
+  background: #F00;
+}
+footer{
+  width: 100%;
+  height: 20vh;
+  background: #00F;
+}
