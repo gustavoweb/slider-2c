@@ -16,6 +16,13 @@ header{
   height: 50vh;
   background: #0F0;
 }
+.card{
+  width: 90%;
+  height: 45vh;
+  background: #fff;
+  margin-left: 5%;
+  float: left;
+}
 .destaque{
   width: 100%;
   height: 50vh;

@@ -8,7 +8,18 @@ function App() {
     <>
       <main>
         <header></header>
-        <section className="produtos"></section>
+        <section className="produtos">
+
+          {/* Produto 1 */}
+          <div className="card">
+            <img src="" alt="" />
+            <h2></h2>
+            <p></p>
+            <p></p>
+            <div className="avaliacao"></div>
+          </div>
+
+        </section>
         <section className="destaque"></section>
         <footer></footer>
       </main>
