@@ -13,7 +13,7 @@ function App() {
 
           {/* Produto 1 */}
           <div className="card">
-            <img src={Xuxa1} alt="" />
+            <img src={Xuxa1} alt="" className="img-card" />
             <h2 className="titulo-card">Notebook Xuxa</h2>
             <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
             <p className="preco">R$ 5.999,99</p>
