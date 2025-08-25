@@ -23,6 +23,10 @@ header{
   background: #fff;
   margin-left: 5%;
   float: left;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 2vh;
+  margin-bottom: 2vh;
 }
 .titulo-card{
   width: 90%;
@@ -45,7 +49,8 @@ header{
 }
 .preco{
   width: 40%;
-  height: auto;
+  height: 2.5vh;
+  line-height: 2.5vh;
   float: left;
   background: #82fff9;
   margin-left: 5%;
@@ -53,6 +58,28 @@ header{
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
+}
+.avaliacao{
+  width: 40%;
+  height: 2.5vh;
+  line-height: 2.5vh;
+  float: right;
+  background: #82fff9;
+  margin-right: 5%;
+  margin-top: 2vh;
+  text-align: center;
+}
+.off{
+  padding: 1%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 2vh;
+  left: 0;
+  z-index: 2;
+  background: #000;
 }
 .img-card{
   width: 100%;

@@ -18,6 +18,27 @@ function App() {
             <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
             <p className="preco">R$ 5.999,99</p>
             <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+            <div className="off">- 10%</div>
+          </div>
+
+          {/* Produto 2 */}
+          <div className="card">
+            <img src={Xuxa1} alt="" className="img-card" />
+            <h2 className="titulo-card">Notebook Xuxa</h2>
+            <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
+            <p className="preco">R$ 5.999,99</p>
+            <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+            <div className="off">- 10%</div>
+          </div>
+
+          {/* Produto 3 */}
+          <div className="card">
+            <img src={Xuxa1} alt="" className="img-card" />
+            <h2 className="titulo-card">Notebook Xuxa</h2>
+            <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
+            <p className="preco">R$ 5.999,99</p>
+            <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+            <div className="off">- 10%</div>
           </div>
 
         </section>
