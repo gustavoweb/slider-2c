@@ -14,8 +14,9 @@ header{
 .produtos{
   width: 100%;
   height: auto;
-  background: #0F0;
+  background: #fff;
   float: left;
+  padding-top: 2vh;
 }
 .card{
   width: 90%;
@@ -27,12 +28,13 @@ header{
   overflow: hidden;
   padding-bottom: 2vh;
   margin-bottom: 2vh;
+  box-shadow: 0 0 5px #555;
 }
 .titulo-card{
   width: 90%;
   height: auto;
   float: left;
-  background: PURPLE;
+  /* background: PURPLE; */
   margin-left: 5%;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   text-transform: uppercase;
@@ -42,7 +44,7 @@ header{
   width: 90%;
   height: auto;
   float: left;
-  background: lightgray;
+  /* background: lightgray; */
   margin-left: 5%;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   margin-top: 1vh;
@@ -52,7 +54,7 @@ header{
   height: 2.5vh;
   line-height: 2.5vh;
   float: left;
-  background: #82fff9;
+  /* background: #82fff9; */
   margin-left: 5%;
   margin-top: 2vh;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -64,7 +66,7 @@ header{
   height: 2.5vh;
   line-height: 2.5vh;
   float: right;
-  background: #82fff9;
+  /* background: #82fff9; */
   margin-right: 5%;
   margin-top: 2vh;
   text-align: center;
