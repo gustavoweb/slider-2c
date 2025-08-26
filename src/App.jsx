@@ -18,9 +18,9 @@ function App() {
             <div className="card">
               <img src={Cjoa} alt="" className="img-card" />
               <h2 className="titulo-card">Capacete Joaninha</h2>
-              <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
-              <p className="preco">R$ 5.999,99</p>
-              <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+              <p className="desc">Proteção ao nível kevlar acoplada ao Estilo Joaninha (Rodolia cardinalis)</p>
+              <p className="preco">R$ 299,99</p>
+              <div className="avaliacao"> <span>★ ★ ★ ★ ★</span> (72)</div>
               <div className="off">- 10%</div>
             </div>
           </a>
@@ -29,11 +29,11 @@ function App() {
           <a href="#" className="link-card">
             <div className="card">
               <img src={Carmy} alt="" className="img-card" />
-              <h2 className="titulo-card">Notebook Xuxa</h2>
-              <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
-              <p className="preco">R$ 5.999,99</p>
-              <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
-              <div className="off">- 10%</div>
+              <h2 className="titulo-card">Capacete PUBG</h2>
+              <p className="desc">Seu galinaceo protegido sem perder o estilo militar dos games online de battle royale.</p>
+              <p className="preco">R$ 399,99</p>
+              <div className="avaliacao"> <span>★ ★ ★ ★ ☆</span> (15)</div>
+              <div className="off">- 5%</div>
             </div>
           </a>
 
@@ -41,10 +41,10 @@ function App() {
           <a href="#" className="link-card">
             <div className="card">
               <img src={Curs} alt="" className="img-card" />
-              <h2 className="titulo-card">Notebook Xuxa</h2>
-              <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
-              <p className="preco">R$ 5.999,99</p>
-              <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+              <h2 className="titulo-card">Capacete Urso Ted</h2>
+              <p className="desc">Une proteção, segurança e clarto um dos personagens mais carismáticos do cinema.</p>
+              <p className="preco">R$ 299,99</p>
+              <div className="avaliacao"> <span>★ ★ ★ ★ ★</span> (302)</div>
               <div className="off">- 10%</div>
             </div>
           </a>
