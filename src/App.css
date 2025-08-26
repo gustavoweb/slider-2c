@@ -18,6 +18,10 @@ header{
   float: left;
   padding-top: 2vh;
 }
+.link-card{
+  text-decoration: none;
+  color: inherit;
+}
 .card{
   width: 90%;
   height: auto;
