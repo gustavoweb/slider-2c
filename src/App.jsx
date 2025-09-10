@@ -3,6 +3,11 @@ import './App.css'
 import Carmy from './assets/cap-army.jpg'
 import Cjoa from './assets/cap-joaninha.jpg'
 import Curs from './assets/cap-ursinho.avif'
+import Slider1 from './assets/slider1.jpg'
+import Slider2 from './assets/slider2.jpg'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay } from 'swiper/modules'
+import 'swiper/css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +15,32 @@ function App() {
   return (
     <>
       <main>
-        <header></header>
+        <header>
+          <Swiper
+            modules={[Autoplay]}
+            spaceBetween={0}
+            slidesPerView={1}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+            loop={true}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <img src={Slider1} alt="Slide 1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Slider2} alt="Slide 2" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Slider1} alt="Slide 3" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Slider2} alt="Slide 3" />
+            </SwiperSlide>
+          </Swiper>
+        </header>
         <section className="produtos">
 
           {/* Produto 1 */}
